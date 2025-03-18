@@ -3,5 +3,6 @@ Run these commands:
 conda create -n swedish-ner python=3.9
 conda activate swedish-ner 
 conda install pandas numpy scikit-learn
-pip install transformers datasets seqeval
+pip install evaluate
+pip install transformers datasets seqeval 
 pip install torch
