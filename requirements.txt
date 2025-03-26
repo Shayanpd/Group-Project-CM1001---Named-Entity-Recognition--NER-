@@ -6,3 +6,5 @@ conda install pandas numpy scikit-learn
 pip install evaluate
 pip install transformers datasets seqeval 
 pip install torch
+pip install "accelerate>=0.26.0" transformers[torch]
+pip install pyarrow (maybe not neccessary)
