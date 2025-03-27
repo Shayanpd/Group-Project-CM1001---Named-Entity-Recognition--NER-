@@ -8,6 +8,8 @@ pip install transformers datasets seqeval
 pip install torch
 pip install "accelerate>=0.26.0" transformers[torch]
 pip install pyarrow (maybe not neccessary)
+pip install shap bertviz torch torchvision torchaudio
+pip install matplotlib
 
 amd gpu
 https://www.amd.com/en/developer/resources/rocm-hub/eula/licenses.html?filename=AMD-Software-PRO-Edition-24.Q4-Win10-Win11-For-HIP.exe
