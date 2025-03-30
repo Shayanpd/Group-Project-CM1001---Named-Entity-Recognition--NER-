@@ -1,4 +1,7 @@
-Run these commands:
+Requirements:
+Required: Conda, Jupyter Notebook and Python.
+
+Run these commands in terminal:
 
 conda create -n swedish-ner python=3.9
 conda activate swedish-ner 
@@ -10,6 +13,3 @@ pip install "accelerate>=0.26.0" transformers[torch]
 pip install pyarrow (maybe not neccessary)
 pip install shap bertviz torch torchvision torchaudio
 pip install matplotlib
-
-amd gpu
-https://www.amd.com/en/developer/resources/rocm-hub/eula/licenses.html?filename=AMD-Software-PRO-Edition-24.Q4-Win10-Win11-For-HIP.exe
